@@ -1,0 +1,9 @@
+<header>  
+    <title>{{ .Site.Title }}</title>
+    <nav class="navMenu">   
+            {{ range .Pages }}
+            <a href="{{.Permalink}}">{{ .Title }}</a> 
+            {{ end }}
+        <div class="dot"></div>
+    </nav>  
+</header>  
