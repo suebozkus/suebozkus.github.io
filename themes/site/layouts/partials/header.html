@@ -1,9 +1,12 @@
 <header>  
     <title>{{ .Site.Title }}</title>
-    <nav class="navMenu">   
+ <h2>S.B.</h2>
+   <nav>   
+        <ul class="nav_links">
             {{ range .Pages }}
-            <a href="{{.Permalink}}">{{ .Title }}</a> 
+            <li><a href="{{.Permalink}}">{{ .Title }}</a> </li>
             {{ end }}
-        <div class="dot"></div>
-    </nav>  
+    </ul>
+    </nav>  </div>
+
 </header>  
