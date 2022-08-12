@@ -120,3 +120,8 @@ button:hover {
 .center {
   text-align: center;
 }
+
+.darktheme {
+  background-color: #000;
+  color:#fff;
+}
