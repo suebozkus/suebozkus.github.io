@@ -207,3 +207,40 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+
+
+
+.socialbtns, .socialbtns ul, .socialbtns li {
+  margin: 0;
+  padding: 5px;
+  list-style: none;
+  text-decoration: none!important;
+}
+
+.socialbtns li  {
+    list-style: none  ;
+    display: inline-block;
+    text-decoration: none!important;
+}
+
+.socialbtns li a {
+  list-style: none  ;
+  display: inline-block;
+  text-decoration: none!important;
+}
+
+.socialbtns .fa {
+  width: 40px;
+    height: 28px;
+  color: #000;
+  background-color: #FFF;
+  padding-top: 12px;
+  border-radius: 22px;
+  -moz-border-radius: 22px;
+  -webkit-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+
+.socialbtns .fa:hover {
+  color: #510193;
+}
