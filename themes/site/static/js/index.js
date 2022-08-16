@@ -4,10 +4,10 @@
 // TODO 4. Add some css for the dark theme of this class.
 
 const toggler = document.getElementById("toggletheme");
-toggler.addEventListener ("change", (e) => {
-    const body = document.getElementById("body");
-    body.classList.toggle("darktheme");
-})
+toggler.addEventListener("change", (e) => {
+  const body = document.getElementById("body");
+  body.classList.toggle("darktheme");
+});
 
 // TODO 1. Hide the Elements.
 // TODO 2. Scroll Event listener.
@@ -15,11 +15,17 @@ toggler.addEventListener ("change", (e) => {
 // TODO 4. Show the elements.
 // TODO 5. Trigger the reveal effect in initial offset.
 
-document.addEventListener('scroll', (e) => { 
-    if (window.scrollY + window.innerHeight - 300 > document.getElementById("projects").offsetTop)  {
-        document.getElementById("projects").classList.remove("opacity-0")
-    } 
-    if (window.scrollY + window.innerHeight - 300 > document.getElementById("contact").offsetTop)  {
-        document.getElementById("contact").classList.remove("opacity-0")
-    } 
-})
+document.addEventListener("scroll", (e) => {
+  if (
+    window.scrollY + window.innerHeight - 300 >
+    document.getElementById("projects").offsetTop
+  ) {
+    document.getElementById("projects").classList.remove("opacity-0");
+  }
+  if (
+    window.scrollY + window.innerHeight - 300 >
+    document.getElementById("contact").offsetTop
+  ) {
+    document.getElementById("contact").classList.remove("opacity-0");
+  }
+});

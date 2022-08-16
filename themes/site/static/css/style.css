@@ -121,7 +121,7 @@ button:hover {
   text-align: center;
 }
 
-.darktheme  {
+.darktheme {
   background-color: #000;
   color: #fff;
 }
@@ -139,14 +139,12 @@ button:hover {
   border-radius: 5px; /* 5px rounded corners */
   border: solid 1px #510193;
   background-color: #fff;
-  color:#000;
+  color: #000;
 }
-
 
 .darktheme .card h4 {
   font-size: 20px;
 }
-
 
 .switch {
   position: relative;
@@ -190,7 +188,7 @@ input:checked + .slider {
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #;
+  box-shadow: 0 0 1px grey;
 }
 
 input:checked + .slider:before {
@@ -214,32 +212,34 @@ input:checked + .slider:before {
 
 .fade {
   transition: all 0.5s ease;
-} 
+}
 
-.socialbtns, .socialbtns ul, .socialbtns li {
+.socialbtns,
+.socialbtns ul,
+.socialbtns li {
   margin: 0;
   padding: 5px;
   list-style: none;
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
-.socialbtns li  {
-    list-style: none  ;
-    display: inline-block;
-    text-decoration: none!important;
+.socialbtns li {
+  list-style: none;
+  display: inline-block;
+  text-decoration: none !important;
 }
 
 .socialbtns li a {
-  list-style: none  ;
+  list-style: none;
   display: inline-block;
-  text-decoration: none!important;
+  text-decoration: none !important;
 }
 
 .socialbtns .fa {
   width: 40px;
-    height: 28px;
+  height: 28px;
   color: #000;
-  background-color: #FFF;
+  background-color: #fff;
   padding-top: 12px;
   border-radius: 22px;
   -moz-border-radius: 22px;
