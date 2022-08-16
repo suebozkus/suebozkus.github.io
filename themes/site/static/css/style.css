@@ -208,7 +208,13 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+.opacity-0 {
+  opacity: 0;
+}
 
+.fade {
+  transition: all 0.5s ease;
+} 
 
 .socialbtns, .socialbtns ul, .socialbtns li {
   margin: 0;
