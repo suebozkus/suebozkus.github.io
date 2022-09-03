@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;1,700&family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,900&display=swap");
 
+/* General */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -18,22 +19,17 @@ button {
   font-size: 18px;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  padding-top: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
-  vertical-align: middle;
-}
+/* Header + Nav */
 
-.logo {
-  width: 30px;
+header {
+  padding-top: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  overflow: hidden;
 }
 
 nav {
-  position: relative;
-  text-align: center;
+  flex: 1 0 100%;
   top: 0;
   right: 0;
   left: 0;
@@ -63,88 +59,25 @@ nav {
   text-decoration: underline;
 }
 
-footer {
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  left: 0;
-  text-align: center;
-  background-color: #510193;
-}
+.site-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
-.footer-links a {
-  list-style-type: none;
-  text-decoration: none;
-  padding: 30px 60px 40px 30px;
-  font-size: 16px;
-  color: #fff;
-}
+.site-navbar__left {
+  display: flex;
+  align-items: center; }
+  .site-navbar__left > * + * {
+    margin-left: 1rem; }
 
-button {
-  padding: 10px 25px;
-  background-color: #510193;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  border: 1px solid;
-  border-color: #510193;
-  transition: all 0.4s ease 0s;
-}
-
-button:hover {
-  background-color: #fff;
-  color: #510193;
-  border: 1px solid;
-  border-color: #510193;
-  cursor: pointer;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-}
-.card h4 {
-  font-size: 20px;
-  padding-top: 10px;
-}
-
-/* Add rounded corners to the top left and the top right corner of the image */
-.card img {
-  border-radius: 5px 5px 0 0;
-}
-
-.center {
-  text-align: center;
-}
-
-.darktheme {
-  background-color: #000;
-  color: #fff;
-}
-
-.darktheme .nav_links li a {
-  color: #fff;
-}
-
-.darktheme .nav_links li a:hover {
-  color: #510193;
-}
-
-.darktheme .card {
-  transition: 0.3s;
-  border-radius: 5px; /* 5px rounded corners */
-  border: solid 1px #510193;
-  background-color: #fff;
-  color: #000;
-}
-
-.darktheme .card h4 {
-  font-size: 20px;
-}
+@media (max-width: 200px) {
+  .site-navbar__right {
+    flex: 0 0 100%;
+    order: 2;
+    margin-top: 1rem; } }
 
 .switch {
   position: relative;
@@ -214,6 +147,30 @@ input:checked + .slider:before {
   transition: all 0.5s ease;
 }
 
+
+/* Footer */
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  left: 0;
+  text-align: center;
+  background-color: #510193;
+}
+
+.footer-links a {
+  list-style-type: none;
+  text-decoration: none;
+  padding: 30px 60px 40px 30px;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Buttons */
+
 .socialbtns,
 .socialbtns ul,
 .socialbtns li {
@@ -242,11 +199,59 @@ input:checked + .slider:before {
   background-color: #fff;
   padding-top: 12px;
   border-radius: 22px;
-  -moz-border-radius: 22px;
-  -webkit-border-radius: 22px;
-  -o-border-radius: 22px;
 }
 
 .socialbtns .fa:hover {
   color: #510193;
 }
+
+/* Cards */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+}
+.card h4 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+/* Add rounded corners to the top left and the top right corner of the image */
+.card img {
+  border-radius: 5px 5px 0 0;
+}
+
+.center {
+  text-align: center;
+}
+
+/* Darktheme */
+
+.darktheme {
+  background-color: #000;
+  color: #fff;
+}
+
+.darktheme .nav_links li a {
+  color: #fff;
+}
+
+.darktheme .nav_links li a:hover {
+  color: #510193;
+}
+
+.darktheme .card {
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  border: solid 1px #510193;
+  background-color: #fff;
+  color: #000;
+}
+
+.darktheme .card h4 {
+  font-size: 20px;
+}
+
+

@@ -1,17 +1,24 @@
 <header>
   <title>{{ .Site.Title }}</title>
 
-  <nav>
-    <ul class="nav_links">
-      <li><a href="/">🏠</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <div class="site-navbar">
+    <div class="site-navbar__left">
+      <nav class="nav">
+      <ul class="nav_links">
+        <li><a href="/">🏠</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
-  <label class="switch">
-    <input type="checkbox" id="toggletheme" />
-    <span class="slider round"></span>
-  </label>
+    </div>
+    <div class="site-navbar__right">
+<label class="switch">
+  <input type="checkbox" id="toggletheme" />
+  <span class="slider round"></span>
+</label>
+    </div>
+  </div>
+    </nav>
+
 </header>
