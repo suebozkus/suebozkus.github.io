@@ -55,7 +55,7 @@ nav {
 }
 
 .nav_links li a:hover {
-  color: #510193;
+  color: #A273FC;
   text-decoration: underline;
 }
 
@@ -99,7 +99,7 @@ nav {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #510193;
+  background-color: #A273FC;
   -webkit-transition: 0.4s;
   transition: 0.4s;
 }
@@ -117,7 +117,7 @@ nav {
 }
 
 input:checked + .slider {
-  background-color: #510193;
+  background-color: #A273FC;
 }
 
 input:focus + .slider {
@@ -157,7 +157,7 @@ footer {
   padding-top: 10px;
   left: 0;
   text-align: center;
-  color: #510193;
+  color: #000;
   overflow: hidde;
   font-size: 14px;
 }
@@ -165,8 +165,7 @@ footer {
 .footer a {
   list-style-type: none;
   text-decoration: none;
-  padding: 30px 60px 40px 30px;
-  color: #000;
+  color: #A273FC;
   font-size: 14px
 }
 
@@ -203,21 +202,24 @@ footer {
 }
 
 .socialbtns .fa:hover {
-  color: #510193;
+  color: #A273FC;
 }
 
 /* Cards */
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 .card h4 {
   font-size: 20px;
+  font-weight:600;
   padding-top: 10px;
 }
+
 
 /* Add rounded corners to the top left and the top right corner of the image */
 .card img {
@@ -254,7 +256,7 @@ footer {
 .darktheme .card {
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
-  border: solid 1px #510193;
+  border: solid 1px #A273FC;
   background-color: #fff;
   color: #000;
 }

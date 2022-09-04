@@ -203,7 +203,7 @@ input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
   color: #fff;
-  background-color: #510193;
+  background-color: #A273FC;
   outline: 0; }
 .button.button-primary,
 button.button-primary,
@@ -211,8 +211,8 @@ input[type="submit"].button-primary,
 input[type="reset"].button-primary,
 input[type="button"].button-primary {
   color: #FFF;
-  background-color: #510193;
-  border-color: #510193;
+  background-color: #A273FC;
+  border-color: #A273FC;
   transition: all 0.4s ease 0s; }
 .button.button-primary:hover,
 button.button-primary:hover,
@@ -224,9 +224,9 @@ button.button-primary:focus,
 input[type="submit"].button-primary:focus,
 input[type="reset"].button-primary:focus,
 input[type="button"].button-primary:focus {
-  color: #510193;
+  color: #A273FC;
   background-color: #fff;
-  border-color: #510193;
+  border-color: #A273FC;
   transition: all 0.4s ease 0s; }
 
 
