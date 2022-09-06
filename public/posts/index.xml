@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homepage on Sumeyye</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Homepage on Sumeyye</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 05 Sep 2022 18:00:56 +0200</lastBuildDate><atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/posts/my-first-post/</link>
+      <pubDate>Mon, 05 Sep 2022 18:00:56 +0200</pubDate>
+      
+      <guid>https://example.org/posts/my-first-post/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://example.org/posts/firstpost/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/posts/firstpost/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum odio. A erat nam at lectus urna duis. Sed velit dignissim sodales ut eu sem. Lectus urna duis convallis convallis tellus. Diam sit amet nisl suscipit adipiscing bibendum est. Sed felis eget velit aliquet sagittis id consectetur. Vulputate dignissim suspendisse in est ante in nibh mauris cursus.</description>
+    </item>
+    
+  </channel>
+</rss>
