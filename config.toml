@@ -1,5 +1,4 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'Sumeyye Bozkus'
-theme = 'site'
-
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Sumeyye"
+theme = "site"
