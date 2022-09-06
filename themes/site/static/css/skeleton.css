@@ -177,6 +177,7 @@ input[type="button"] {
   height: 38px;
   padding: 0 30px;
   color: #510193;
+  background-color: #fff;
   text-align: center;
   font-family: "Nunito", sans-serif;
   font-size: 11px;
@@ -186,7 +187,6 @@ input[type="button"] {
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
-  background-color: transparent;
   border-radius: 4px;
   border: 1px solid #510193;
   cursor: pointer;

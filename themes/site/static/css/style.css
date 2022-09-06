@@ -148,6 +148,16 @@ input:checked + .slider:before {
 }
 
 
+/* Profile image */
+
+@media only screen and (max-width: 500px)
+{
+.profile {
+  max-width: 100%;
+  height: auto;
+}
+}
+
 /* Footer */
 
 footer {
@@ -196,7 +206,6 @@ footer {
   width: 40px;
   height: 28px;
   color: #000;
-  background-color: #fff;
   padding-top: 12px;
   border-radius: 22px;
 }
@@ -265,28 +274,11 @@ footer {
   font-size: 20px;
 }
 
+.darktheme .socialbtns .fa{
+  color:#fff;
+}
+
 /* Modal Container*/
 
-.modal-container {
-  top:0;
-  left:0;
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: fixed;
-}
-
-.modal {
-  background-color: #F2EBFE;
-  padding: 30px 50px;
-  border-radius: 10px;
-  width: 600px;
-  max-width: 100%;
-  text-align: center;
-  opacity: 0;
-  pointer-events: none;
-}
 
 
